@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "dbgradebook.mysql.database.azure.com";
+$username = "albatin";
+$password = "albatin123";
 $dbname = "gradebook";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
